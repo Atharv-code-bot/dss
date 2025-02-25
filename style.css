@@ -3662,6 +3662,7 @@ html {
     padding-bottom: 2em;
     display: flex;
     overflow: hidden;
+    align-items: center;
   }
   
   .made-by-section.first {
@@ -3930,7 +3931,7 @@ html {
     font-family: Darker Grotesque, sans-serif;
     font-size: 120px;
     font-weight: 600;
-    line-height: 1;
+    line-height: 1.2;
   }
   
   .paragraph-m {
@@ -4254,7 +4255,7 @@ html {
   
   .brand-logo {
     height: 100%;
-    max-height: 30px;
+    max-height: 55px;
     max-width: 150px;
   }
   
@@ -4503,8 +4504,8 @@ html {
   .client-logo {
     width: 100%;
     height: 100%;
-    max-height:100px;
-    max-width: 180px;
+    max-height:80px;
+    max-width: 150px;
     /* filter: invert(); */
     object-fit: contain;
   }
@@ -4549,6 +4550,7 @@ html {
   }
   
   .trusted-by-text {
+    margin-bottom:10px;
     color: var(--main-green-color);
     text-align: center;
     text-transform: uppercase;
@@ -5655,6 +5657,7 @@ html {
     grid-row-gap: 25px;
     justify-content: flex-end;
     display: flex;
+    align-items: center;
   }
   
   .footer-text-link {
@@ -6098,7 +6101,7 @@ html {
   }
   
   .collaborators-grid {
-    grid-column-gap: 2.5em;
+    grid-column-gap: 7.5em;
     grid-row-gap: 2.5em;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6964,6 +6967,11 @@ html {
       justify-content: space-between;
       padding: 30px;
     }
+
+    .footer-image {
+      width: 100px; /* Adjust size as needed */
+      height: auto;
+  }
   
     .footer {
       text-align: left;
@@ -6978,8 +6986,9 @@ html {
     }
   
     .made-by-section {
-      flex-direction: column;
+      flex-direction: row;
       align-items: stretch;
+      justify-content: space-between;
     }
   
     .nav-link-holder.nav-button-holder {
@@ -7175,8 +7184,8 @@ html {
   
     .client-logo {
       width: 100%;
-      max-height: 30px;
-      max-width: 100px;
+      max-height: 40px;
+      max-width: 70px;
     }
   
     .instruction-item {
@@ -7421,9 +7430,10 @@ html {
     }
   
     .footer-text-link-holder {
-      grid-column-gap: 10px;
-      grid-row-gap: 10px;
-      flex-direction: column;
+      grid-column-gap: 25px;
+      grid-row-gap: 25px;
+      justify-content: flex-end;
+      display: flex;
     }
   
     .image-grid-holder._2 {
@@ -7536,6 +7546,12 @@ html {
       grid-column-gap: 0px;
       grid-row-gap: 0px;
       padding: 1em 1em 2em;
+    }
+
+    .made-by-section first{
+      display: flex;
+      flex-direction: column ;
+    
     }
   
     .speaker-title {
