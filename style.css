@@ -7666,3 +7666,35 @@ html {
     }
   }
 
+.w-dyn-item{
+  padding-top:5%;
+}
+
+.tc-white-100, .tc-white-48{
+  text-align: center;
+}
+.col.w-dyn-item {
+  transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+
+.col.w-dyn-item:hover {
+  transform: scale(1.05);
+}
+
+.col.w-dyn-item:hover .headline.xs {
+  text-decoration: underline;
+}
+
+.col.w-dyn-item:hover .body-text-s {
+  text-decoration: underline;
+}
+
+.col.w-dyn-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+/* Restore the original color on hover */
+.col.w-dyn-item:hover img {
+  filter: grayscale(0%);
+}
