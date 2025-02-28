@@ -3932,7 +3932,7 @@ blockquote {
   font-family: Darker Grotesque, sans-serif;
   font-size: 120px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .paragraph-m {
@@ -4364,7 +4364,7 @@ blockquote {
 .hero-description {
   max-width: 700px;
   color: #fff;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 2em;
   font-family: Oxygen, sans-serif;
   font-size: 18px;
